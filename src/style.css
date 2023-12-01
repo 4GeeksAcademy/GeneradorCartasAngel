@@ -24,7 +24,27 @@ body {
   font-size: 100px;
 }
 
+#top {
+  position: absolute;
+  font-size: 100px;
+  bottom: 0px;
+  right: 10px;
+}
+
+#bottom {
+  position: absolute;
+  font-size: 95px;
+  top: 0px;
+  left: 10px;
+}
+
 #cardNumero {
   font-size: 100px;
   color: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
