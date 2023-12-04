@@ -9,8 +9,7 @@ body {
 #boton {
   background-color: white;
   margin: auto;
-  position: absolute;
-  left: 100%;
+  margin-top: 5px;
 }
 
 .card {
@@ -20,7 +19,7 @@ body {
   border: 1px solid black;
   display: flex;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 25px;
   font-size: 100px;
 }
 

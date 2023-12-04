@@ -46,4 +46,8 @@ window.onload = function() {
   }
   console.log(simboloRandom);
   console.log(generadorNumero());
+
+  document.querySelector("#boton").addEventListener("click", function() {
+    location.reload();
+  });
 };
